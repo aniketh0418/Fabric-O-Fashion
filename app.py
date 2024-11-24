@@ -10,7 +10,7 @@ from components.pages.quiz_assess import mainy
 from components.pages.AI import maino
 from PIL import Image
 
-img = Image.open(r"\components\pages\logo.png")
+img = Image.open(r"components/pages/logo.png")
 
 # Configure the app
 st.set_page_config(
