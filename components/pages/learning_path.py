@@ -4,7 +4,7 @@ sys.path.append('../')
 from data.fabric_data import fabric_df, get_fabric_types
 from PIL import Image
 
-img = Image.open(r"\components\pages\logowhite.png")
+img = Image.open(r"components/pages/logowhite.png")
 
 def show_learning_path():
     """
