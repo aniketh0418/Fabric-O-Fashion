@@ -5,9 +5,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import LLMChain
-from PIL import Image
-
-img = Image.open(r"components/pages/logowhite.png")
 
 
 def initialize_session_state():
@@ -95,9 +92,6 @@ def maino():
     # Setup LLM if not already setup
     if st.session_state.chain is None:
         st.session_state.chain = setup_llm()
-
-    # header image
-    st.image(img, use_column_width=True)
 
     # Header
     st.header("AI Fabric Advisor", divider="rainbow")
