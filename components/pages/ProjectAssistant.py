@@ -1,12 +1,10 @@
 # pages/project_assistant.py
 import streamlit as st
 from data.fabric_data import fabric_df
-from PIL import Image
 
-img = Image.open(r"components/pages/logowhite.png")
 
 def show_project_assistant():
-    st.image(img, width=100, use_column_width=False)
+  
     st.title("Project Assistant 📋")
 
    
