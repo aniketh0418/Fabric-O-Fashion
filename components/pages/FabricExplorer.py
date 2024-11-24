@@ -2,13 +2,10 @@
 import streamlit as st
 import pandas as pd
 from data.fabric_data import fabric_df, get_fabric_types, get_fabrics_by_type
-from PIL import Image
-
-img = Image.open(r"/components/pages/logowhite.png")
 
 def show_fabric_explorer():
     #st.markdown(css_styles, unsafe_allow_html=True)
-    st.image(img, width=100, use_column_width=False)
+
     st.title("Fabric Explorer 🔍")
     
     # Sidebar filters
