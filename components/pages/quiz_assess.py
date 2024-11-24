@@ -8,7 +8,7 @@ import time
 import plotly.graph_objects as go
 from PIL import Image
 
-img = Image.open(r"Fabric-O-Fashion\components\pages\logowhite.png")
+img = Image.open(r"Fabric-O-Fashion\\components\\pages\\logowhite.png")
 
 # Configure Gemini AI
 genai_model = genai.GenerativeModel("gemini-1.5-flash")
