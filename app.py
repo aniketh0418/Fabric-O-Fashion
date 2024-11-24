@@ -8,7 +8,7 @@ from components.pages.learning_path import show_learning_path
 from components.pages.Analytics import app
 from components.pages.quiz_assess import mainy
 from components.pages.AI import maino
-form componenets.pages.image import mainimg
+from components.pages.image import mainimg
 from PIL import Image
 
 img = Image.open(r"components/pages/logo.png")
