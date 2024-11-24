@@ -6,9 +6,6 @@ import requests
 import json
 import time
 import plotly.graph_objects as go
-from PIL import Image
-
-img = Image.open("components\pages\logowhite.png")
 
 # Configure Gemini AI
 genai_model = genai.GenerativeModel("gemini-1.5-flash")
@@ -212,7 +209,7 @@ def display_performance_chart(score_history):
 
 def mainy():
     """Main application function"""
-    st.image(img, width=100, use_column_width=False)
+
 
     # Initialize session state
     if 'questions' not in st.session_state:
