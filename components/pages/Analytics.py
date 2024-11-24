@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 from data.fabric_data import FABRIC_DF, FABRIC_TYPES  # Importing data
 from PIL import Image
 
-img = Image.open(r"Fabric-O-Fashion\components\pages\logowhite.png")
+img = Image.open(r"\components\pages\logowhite.png")
 
 import pandas as pd
 
