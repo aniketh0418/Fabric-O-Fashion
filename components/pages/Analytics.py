@@ -2,10 +2,6 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from data.fabric_data import FABRIC_DF, FABRIC_TYPES  # Importing data
-from PIL import Image
-
-img = Image.open(r"components/pages/logowhite.png")
-
 import pandas as pd
 
 def app():
@@ -31,7 +27,6 @@ def app():
 
 # Create a Streamlit container with the image
     st.markdown(css_styles, unsafe_allow_html=True)
-    st.image(img, width=100, use_column_width=False)
     #st.markdown(f"<img src='{"components\pages\logowhite.png"}'  width='300' height='200'>",unsafe_allow_html=True)
 
 
