@@ -2,7 +2,7 @@
 import streamlit as st
 from PIL import Image
 
-img = Image.open(r"logowhite.png")
+img = Image.open(r"Fabric-O-Fashion/components/pages/logowhite.png")
 def show_home():
     st.image(img, width=100, use_column_width=False)
 
