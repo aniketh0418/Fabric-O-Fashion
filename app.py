@@ -8,6 +8,7 @@ from components.pages.learning_path import show_learning_path
 from components.pages.Analytics import app
 from components.pages.quiz_assess import mainy
 from components.pages.AI import maino
+form componenets.pages.image import mainimg
 from PIL import Image
 
 img = Image.open(r"components/pages/logo.png")
@@ -28,6 +29,7 @@ PAGES = {
     "Project Assistant 📚": show_project_assistant,
     "Learning Path 💡": show_learning_path,
     "Analytics Dashboard 📊": app,
+    "Design Analysis 🎨": mainimg,
     "Quiz Assessment ✍" : mainy
     
 }
