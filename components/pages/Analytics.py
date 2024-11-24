@@ -5,7 +5,6 @@ from data.fabric_data import FABRIC_DF, FABRIC_TYPES  # Importing data
 import pandas as pd
 
 def app():
-    image_url = img
     css_styles = """
     <style>
        .logo-container {
