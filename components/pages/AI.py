@@ -7,7 +7,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import LLMChain
 from PIL import Image
 
-img = Image.open(r"\components\pages\logowhite.png")
+img = Image.open(r"components/pages/logowhite.png")
 
 
 def initialize_session_state():
