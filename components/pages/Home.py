@@ -18,6 +18,7 @@ def show_home():
     3. 📋 **Project Assistant**: Get recommendations for your specific project needs
     4. 📚 **Learning Path**: Structured learning modules about fabric types and properties
     5. 📊 **Analytics Dashboard**: Visualize fabric data and trends
+    6. 🎨 **Design Analysis**: Analyze your design idea
     6. 📝 **Quiz Assessment**: Take a quiz to test your knalowedge
     
     Get started by selecting a section from the sidebar!
