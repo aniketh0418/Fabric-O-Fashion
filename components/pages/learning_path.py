@@ -2,16 +2,14 @@ import streamlit as st
 import sys
 sys.path.append('../')
 from data.fabric_data import fabric_df, get_fabric_types
-from PIL import Image
 
-img = Image.open("components/pages/logowhite.png")
 
 def show_learning_path():
     """
     Display the fabric learning path interface in Streamlit.
     This function handles the main UI and logic for the learning path feature.
     """
-    st.image(img, width=100, use_column_width=False)
+
 
     st.title("Fabric Learning Path 📚")
     
